@@ -1,0 +1,115 @@
+@media (max-width:500px) {
+
+    body{
+        background-color: black;
+    }
+
+    #nav{
+        margin-top: 10px;
+    }
+
+
+    #nav h5{
+        display: none;
+    }
+
+   
+
+    #content{
+        flex-direction: column;
+    }
+
+    #left{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #left h1{
+    text-align: center;
+    font-size: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    #left p{
+        display: none;
+    }
+
+    #left button{
+   width: 150px;   
+    margin-left: 145px;
+    margin-top: 20px;
+    }
+
+    #center{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+        /* flex-direction: column; */
+    }
+
+    #center img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        left: 40px;
+        bottom: 38px
+    }
+
+    #right{
+        height: 10px;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    #rightelems{
+        background-color: red;
+        margin-top: 270px;
+        width: 100%;
+        display: flex;
+       position: relative;
+       bottom: 278px;
+        flex-direction: column;
+    }
+
+    #elem3 p{
+        width: 266px;
+
+    }
+
+    #image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        position: relative;
+        top: 900px;
+        left: 100px;
+    }
+
+  
+
+    #footer{
+        height: 100px;
+        margin-top: 100px;
+        position: relative;
+        top: 914px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .icons{
+        margin-top: 10px;
+    }
+
+
+}
